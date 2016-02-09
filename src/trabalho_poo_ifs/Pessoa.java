@@ -88,7 +88,7 @@ public class Pessoa implements Comparable<Pessoa> {
         }
         return 0;
     }
-
+    //Sobrescrita desse metodo permite uma apresentação do objeto na forma de uma string
     @Override
     public String toString() {
         return String.format("CPF: %011d; Nome: %s; Fone: %s; \n", this.CPF, this.nome, this.fone);

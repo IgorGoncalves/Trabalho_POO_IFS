@@ -14,6 +14,7 @@ import java.util.Comparator;
  */
 public enum OrdenarPessoa implements Comparator<Pessoa> {
 
+    //Enum permite que possam ser adicionados diferentes comparadores
     PorNome() {
         @Override
         public int compare(Pessoa one, Pessoa other) {
